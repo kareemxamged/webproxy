@@ -1,6 +1,5 @@
 # Deploy — Corrosion Web Proxy
 
-> A fast, self-hosted web proxy built on the [Corrosion](https://github.com/EnginexNetwork/corrosion) engine.  
 > Browse freely with XOR-encoded URLs, full WebSocket support, and instant quick-access links.
 
 
