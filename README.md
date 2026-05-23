@@ -3,9 +3,6 @@
 > A fast, self-hosted web proxy built on the [Corrosion](https://github.com/EnginexNetwork/corrosion) engine.  
 > Browse freely with XOR-encoded URLs, full WebSocket support, and instant quick-access links.
 
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/EnginexNetwork/deploy"><img alt="Deploy to Heroku" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://replit.com/github/EnginexNetwork/deploy"><img alt="Run on Replit" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"></a>
-<a target="_blank" href="https://glitch.com/edit/#!/import/github/EnginexNetwork/deploy"><img alt="Remix on Glitch" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg"></a>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
@@ -64,7 +61,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/EnginexNetwork/deploy.git
+git clone https://github.com/kareemxamged/webproxy.git
 cd deploy
 
 # 2. Install dependencies
@@ -77,14 +74,6 @@ npm start
 The proxy will be available at **http://localhost:8080**.
 
 > On first boot, Webpack will automatically compile the client injection bundle (`lib/server/bundle.js`). This may take a few seconds — wait for `Bundled scripts` in the console before testing.
-
-### One-Click Cloud Deployment
-
-| Platform | Button |
-|---|---|
-| Heroku | [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/EnginexNetwork/deploy) |
-| Replit | [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/EnginexNetwork/deploy) |
-| Glitch | [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/EnginexNetwork/deploy) |
 
 ---
 
@@ -151,20 +140,8 @@ const proxy = new Corrosion({
 
 ## Author
 
-Built by **Nebelung** and the **EnginexNetwork** team.
+Built by **Kareem Amged**
 
----
-
----
-
-# نشر — وكيل الويب Corrosion
-
-> وكيل ويب سريع وذاتي الاستضافة مبني على محرك [Corrosion](https://github.com/EnginexNetwork/corrosion).  
-> تصفح بحرية مع ترميز XOR للروابط، ودعم كامل لـ WebSocket، وروابط وصول سريع.
-
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/EnginexNetwork/deploy"><img alt="نشر على Heroku" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://replit.com/github/EnginexNetwork/deploy"><img alt="تشغيل على Replit" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"></a>
-<a target="_blank" href="https://glitch.com/edit/#!/import/github/EnginexNetwork/deploy"><img alt="استنساخ على Glitch" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg"></a>
 
 ---
 
@@ -217,7 +194,7 @@ Built by **Nebelung** and the **EnginexNetwork** team.
 
 ```bash
 # 1. استنساخ المستودع
-git clone https://github.com/EnginexNetwork/deploy.git
+git clone https://github.com/kareemxamged/webproxy.git
 cd deploy
 
 # 2. تثبيت التبعيات
@@ -230,14 +207,6 @@ npm start
 سيكون الوكيل متاحًا على **http://localhost:8080**.
 
 > عند التشغيل الأول، سيقوم Webpack تلقائيًا بتجميع حزمة الحقن للعميل (`lib/server/bundle.js`). قد يستغرق هذا بضع ثوانٍ — انتظر ظهور `Bundled scripts` في وحدة التحكم قبل الاختبار.
-
-### النشر السحابي بنقرة واحدة
-
-| المنصة | الزر |
-|---|---|
-| Heroku | [![نشر على Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/EnginexNetwork/deploy) |
-| Replit | [![تشغيل على Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/EnginexNetwork/deploy) |
-| Glitch | [![استنساخ على Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/EnginexNetwork/deploy) |
 
 ---
 
@@ -290,4 +259,4 @@ const proxy = new Corrosion({
 
 ## المؤلف
 
-أُنشئ بواسطة **Nebelung** وفريق **EnginexNetwork**.
+أُنشئ بواسطة **Kareem Amged**.
